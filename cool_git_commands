@@ -1,0 +1,16 @@
+1. git shortlog:
+
+> shows u all the commit made by contributors on the project
+
+git shortlog -s // number of commits per contributors pr c/c
+
+> git shortlog -sne // with email
+
+2.git log
+
+--graph
+--oneline
+-- combine them
+--after 8.days.ago
+
+3.git add -p
