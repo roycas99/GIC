@@ -1,0 +1,13 @@
+
+1: git show
+
+> is used to show details on git Objects such commit. 
+example: git show --pretty="" --name-only sha
+
+> git show [options] <object>...
+
+
+2. git diff branchB ... BranchA
+
+> show the diff what is in bran A that is not bran Bo
+ 
