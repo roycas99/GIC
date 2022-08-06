@@ -1,0 +1,12 @@
+How do I see git added files?😊
+display the full list of what's staged at this point. (doc for diff --staged)
+git diff --staged --name-only👍
+
+..."un-add" (unstage) one file
+git reset -- path/to/file
+
+...or similarly, unstage a directory with everything in it
+git reset -- path/to/dir/
+
+...unstage everything (example in the doc)
+git reset
